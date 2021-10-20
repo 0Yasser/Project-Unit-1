@@ -1,5 +1,5 @@
 # Project-Unit-1
-Outline of the project for Unit 1 using HTML, CSS &amp; JavaScript
+This repositery is for my first project in the Tuwaiq Javascript bootcamp and it was a movies listing website.
 
 
 
@@ -21,7 +21,7 @@ Outline of the project for Unit 1 using HTML, CSS &amp; JavaScript
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Functionalities in the website:</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -45,71 +45,31 @@ Outline of the project for Unit 1 using HTML, CSS &amp; JavaScript
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Functionalities in the website:
 
-![screencapture-127-0-0-1-5501-2021-10-14-16_20_26](https://user-images.githubusercontent.com/63668672/137325603-26533686-071a-45a0-8239-2dec3ef6daab.png)
-
-We are going for it! First project for the course, the task is simple enough. Build a website using everything we have learned in this unit. Try to take advantaje of the homework assignments that you have done yourself in the past to be able to apply some functionality for it.
-
-Here are the requirements:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others.
-* You should implement DRY principles for the rest of your life :smile:
-* As a user you have to be able to navigate some information and display it.
-* There needs to be some wireframing.
-* There needs to be a readme.
-* There needs to be a plan before hand that needs to be aproved by your instructor.
-* The use of Bootstrap is optional.
-* You have to use an API out of the options we give to fetch some information from the JSON.
-* It needs to be responsive.
-
-BONUS
-* CRUD.
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+* Responsive UI using bootstrap on some parts and media query on others.
+* Dark and Light mode.
+* Information fetching from a JSON in an API.
 
 
 
-### List of APIs
+### Tools used:
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Fake Store API](https://fakestoreapi.com/docs)
-* [POKEMON API](https://pokeapi.co/)
-* [Rick and Morty API](https://rickandmortyapi.com/)
-* [Weather API](https://rapidapi.com/community/api/open-weather-map)
-* [Movies API](https://developer.nytimes.com/docs/movie-reviews-api/1/overview)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+* bootstrap
+* Trello
+* Figma
+* IMDB API from Rapid API
+* MovieDB API
 
 <!-- ROADMAP -->
-## What do you need to get it approved before you start working?
+## Problem encountered:
 
-- [Step by step using Trello](https://trello.com/es)
-    - [] Design
-    - [] Backlog
-    - [] To do
-    - [] Doing
-    - [] Code Review
-    - [] Testing
-    - [] Done
+* Choosing an API: I chose IMDB first but it had many limitations on stuff like number of requests per month (500) and requests per seconds (5) so eventually those limitations forced me to move to another (inferior) option which is movieDB.
+* UI design: I find designing a stunning website extremly hard to do, probably the hardest aspect of web-dev I encountered until now, even with a ready wireframe it's not easy to pull it off.
+* Some functionalities I planned to make but couldn't implement them.
 
-- [Wireframes using Figma](https://www.figma.com/files/search?model_type=files&fuid=910903139620418288)
-- Meeting all the requirements.
 
-<!-- ROADMAP -->
-## Roadmap
+## Links:
 
-- [x] Create a GitHub repo.
-- [x] Create a folder and files for your project. (index.html, style folder, style.css, javascript.js, images folder, etc)
-- [] Start with your html layout, from big sections to small sections.
-- [] Conect to the API and do a fetch request.
-- [] Display the information from your API on your webpage
-- [] Apply styles to your webpage.
-    - [] MOBILE FIRST
-    - [] Chose a color pallet
-    - [] Chose a font
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
