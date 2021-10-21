@@ -177,11 +177,14 @@ function toMoviePage(num){
 	.then(response=>{
 		return response.json();
 	})
-	.then(data=>{console.log("go",data); sessionStorage.setItem("website",data.results.AR.link)})
+	.then(
+		data=>{console.log("go",data); 
+		localStorage.removeItem("website");
+		localStorage.setItem("website",data.results.AR.link);
+		       setTimeout(window.location=localStorage.getItem("website"), 2000);)})
 	.catch(err=>{console.log("error in switching to movie ")})
 	console.log("THE MOVIE ID: ",num.parentElement.id);
 	
-	window.location=sessionStorage.getItem("website");
 }
 function toActorPage(num){
 	sessionStorage.setItem("ActorID",num.parentElement.id);
