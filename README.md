@@ -71,5 +71,7 @@ This repositery is for my first project in the Tuwaiq Javascript bootcamp and it
 
 ## Links:
 
-
+* Figma: https://www.figma.com/file/rUCULisjPGTWOietJ23SRf/Wireframing-in-Figma?node-id=0%3A817 .
+* Trello: https://trello.com/b/O0Z5fKqv/design .
+* The project: https://0yasser.github.io/Project-Unit-1/ .
 
