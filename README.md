@@ -50,6 +50,8 @@ This repositery is for my first project in the Tuwaiq Javascript bootcamp and it
 * Responsive UI using bootstrap on some parts and media query on others.
 * Dark and Light mode.
 * Information fetching from a JSON in an API.
+* Moving between pages.
+* Moving to outside source (incomplete).
 
 
 
